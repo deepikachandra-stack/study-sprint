@@ -1,0 +1,247 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    background-image: url("deku.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+   
+
+h1 {
+    color: #e63946;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow:
+        3px 3px 0 #0077b6,
+        6px 6px 0 #ffcc00,
+        0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+p {
+    color: #d9e2ec;
+    font-size: 18px;
+}
+
+input {
+    padding: 12px;
+    width: 280px;
+    border: 2px solid #ffcc00;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px 18px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e63946;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+    color: #101820;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+li {
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #1c2a36;
+   border-left: 6px solid #00b4d8;
+    width: 400px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+li span {
+    cursor: pointer;
+    margin-right: 15px;
+}
+li button {
+    background-color: #e63946;
+    padding: 7px 10px;
+    font-size: 12px;
+}
+
+li button:hover {
+    background-color: #ffcc00;
+}
+
+.progress {
+    margin: 40px auto;
+    padding: 20px;
+    width: 500px;
+    background-color: #16232e;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+
+.progress h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats div {
+    padding: 10px;
+}
+
+.stats h3 {
+    font-size: 28px;
+    margin: 5px;
+    color: #00b4d8;
+}
+
+.stats p {
+    margin: 5px;
+    font-size: 14px;
+}
+.completed {
+    border-left-color: #2ecc71;
+}
+.filters {
+    margin: 25px 0;
+}
+
+.filters button {
+    background-color: #0077b6;
+    margin: 0 5px;
+    padding: 9px 14px;
+}
+
+.filters button:hover {
+    background-color: #ffcc00;
+    color: #101820;
+}
+.hero-card {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #16232e;
+    border: 3px solid #0077b6;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background-color: #0d1b2a;
+    border: 2px solid #0077b6;
+    border-radius: 20px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+#progressFill {
+    width: 0%;
+    height: 100%;
+    background-color: #2ecc71;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+#progressPercent {
+    color: #00b4d8;
+    font-weight: bold;
+}
+.rank-rookie {
+    color: #00b4d8;
+}
+
+.rank-sidekick {
+    color: #ffcc00;
+}
+
+.rank-pro {
+    color: #e63946;
+}
+
+.rank-elite {
+    color: #9b5de5;
+}
+
+.rank-top {
+    color: #2ecc71;
+}
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    li {
+        width: 90%;
+    }
+
+    .progress {
+        width: 90%;
+    }
+
+    .hero-card {
+        padding: 20px;
+    }
+}
+li button {
+    background-color: #e63946;
+    border: 2px solid #ff6b6b;
+}
+
+li button:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+li {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+h1 {
+    color: white;
+    text-shadow: 
+        3px 3px 0 #e63946,
+        -2px -2px 0 #0077b6,
+        0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.hero-card > p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
+p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+}
